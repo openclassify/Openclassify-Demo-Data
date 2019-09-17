@@ -26,13 +26,6 @@ SET time_zone = "+00:00";
 -- Dumping data for table `default_cats_category`
 --
 
-INSERT INTO `default_cats_category_files` (`id`, `entry_id`, `file_id`, `sort_order`) VALUES
-(2, 3517, 81, 1),
-(4, 3520, 82, 1),
-(6, 7, 83, 1),
-(8, 3518, 120, 1),
-(9, 9, 121, 1),
-(10, 39, 122, 1);
 
 INSERT INTO `default_cats_category` (`id`, `sort_order`, `slug`, `parent_category_id`) VALUES
 (1, 1, 'antika_1', 7),
@@ -62743,6 +62736,13 @@ COMMIT;
 
 
 UPDATE default_cats_category SET created_at = '2019-03-27 16:20:51';
+
+UPDATE `default_cats_category` SET `icon_id` = '81' WHERE `default_cats_category`.`id` = 3517;
+UPDATE `default_cats_category` SET `icon_id` = '82' WHERE `default_cats_category`.`id` = 3520;
+UPDATE `default_cats_category` SET `icon_id` = '83' WHERE `default_cats_category`.`id` = 7;
+UPDATE `default_cats_category` SET `icon_id` = '120' WHERE `default_cats_category`.`id` = 3518;
+UPDATE `default_cats_category` SET `icon_id` = '121' WHERE `default_cats_category`.`id` = 9;
+UPDATE `default_cats_category` SET `icon_id` = '122' WHERE `default_cats_category`.`id` = 39;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
