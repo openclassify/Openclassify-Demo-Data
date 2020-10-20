@@ -3,6 +3,7 @@ SET AUTOCOMMIT = 0;
 START TRANSACTION;
 SET time_zone = "+00:00";
 
+TRUNCATE `default_location_countries`;
 INSERT INTO `default_location_countries` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `slug`, `order`) VALUES
 (1, 1, '2019-01-31 10:27:49', NULL, '2019-01-31 10:27:49', NULL, 'afghanistan', NULL),
 (2, 2, '2019-01-31 10:27:49', NULL, '2019-01-31 10:27:49', NULL, 'albania', NULL),
@@ -237,6 +238,7 @@ INSERT INTO `default_location_countries` (`id`, `sort_order`, `created_at`, `cre
 (231, 231, '2019-01-31 10:27:55', NULL, '2019-01-31 10:27:55', NULL, 'zimbabwe', NULL),
 (232, 232, '2019-01-31 10:27:55', NULL, '2019-01-31 10:27:55', NULL, 'kktc', NULL);
 
+TRUNCATE `default_location_countries_translations`;
 INSERT INTO `default_location_countries_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`, `abv`) VALUES
 (1,	1,	'2019-01-31 10:27:49',	NULL,	'2019-01-31 10:27:49',	NULL,	'en',	'Afghanistan',	'AF'),
 (2,	2,	'2019-01-31 10:27:49',	NULL,	'2019-01-31 10:27:49',	NULL,	'en',	'Albania',	'AL'),
