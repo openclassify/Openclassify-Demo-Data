@@ -469,5 +469,5 @@ INSERT INTO `default_location_countries_translations` (`id`, `entry_id`, `create
 (229,	229,	'2019-01-31 10:27:55',	NULL,	'2019-01-31 10:27:55',	NULL,	'en',	'Yemen',	'YE'),
 (230,	230,	'2019-01-31 10:27:55',	NULL,	'2019-01-31 10:27:55',	NULL,	'en',	'Zambia',	'ZM'),
 (231,	231,	'2019-01-31 10:27:55',	NULL,	'2019-01-31 10:27:55',	NULL,	'en',	'Zimbabwe',	'ZW'),
-(232,	232,	'2019-01-31 10:27:55',	NULL,	'2019-01-31 10:27:55',	NULL,	'en',	'KKTC',	'ZW');
+(232,	232,	'2019-01-31 10:27:55',	NULL,	'2019-01-31 10:27:55',	NULL,	'en',	'KKTC',	'KKTC');
 COMMIT;
