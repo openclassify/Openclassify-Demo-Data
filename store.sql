@@ -1,7 +1,7 @@
-SET NAMES utf8;
-SET time_zone = '+00:00';
-SET foreign_key_checks = 0;
-SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
+SET time_zone = "+00:00";
 
 TRUNCATE `default_store_store`;
 INSERT INTO `default_store_store` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `user_id`, `slug`, `land_phone`, `address`, `category`, `country_id`, `city`, `email`, `web_site`, `gold_supplier`, `facebook`, `instagram`, `twitter`, `file_id`, `store_banner_id`, `iban_number`) VALUES
