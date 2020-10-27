@@ -3,13 +3,19 @@ SET time_zone = ' + 00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT = @@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS = @@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 TRUNCATE `default_store_store`;
 INSERT INTO `default_store_store` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`,
                                    `user_id`, `slug`, `land_phone`, `address`, `category`, `country_id`, `city`,
                                    `email`, `web_site`, `gold_supplier`, `facebook`, `instagram`, `twitter`, `file_id`,
                                    `store_banner_id`, `iban_number`)
 VALUES (1, 1, '2020-10-26 06:50:53', 1, '2020-10-26 07:00:44', 1, 1, 'apple', '0500 000 00 00',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.',
+        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec,
+        auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.',
         NULL, 221, 'Pick an option', NULL, NULL, 0, NULL, NULL, NULL, 470, NULL, NULL),
        (2, 2, '2020-10-26 06:56:19', 1, '2020-10-26 08:52:59', 1, 1, 'sony', '00000000000',
         'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec,
@@ -213,7 +219,8 @@ VALUES (1, 1, '2020-10-26 06:50:53', NULL, '2020-10-26 07:00:44', 1, 'ar', NULL,
        (101, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'nl', NULL, NULL, NULL),
        (102, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'en', 'Toys \"R\" Us',
         'Toys \"R\" Us is an international toy, clothing, and baby product retailer owned by Tru Kids, Inc. and various others. ',
-        '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>'),
+        '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec,
+        auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.</p>'),
        (103, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'fr', NULL, NULL, NULL),
        (104, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'el', NULL, NULL, NULL),
        (105, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'it', NULL, NULL, NULL),
@@ -222,3 +229,7 @@ VALUES (1, 1, '2020-10-26 06:50:53', NULL, '2020-10-26 07:00:44', 1, 'ar', NULL,
        (108, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'ru', NULL, NULL, NULL),
        (109, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'es', NULL, NULL, NULL),
        (110, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'tr', NULL, NULL, NULL);
+
+/*!40101 SET CHARACTER_SET_CLIENT = @OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS = @OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
