@@ -20,7 +20,8 @@ INSERT INTO `default_settings_settings` (`created_at`, `created_by_id`, `updated
 ('2020-09-25 11:12:33',	1,	'2020-10-01 15:22:19',	1,	'visiosoft.theme.sahibinden::home_bottom',	'<p><img alt=\"Home bottom\" src=\"/files/images/home_bottom.jpg\"></p>'),
 ('2020-09-25 11:12:33',	1,	'2020-10-01 15:11:10',	1,	'visiosoft.theme.sahibinden::home_bottom_left_categories',	'<p><img src=\"/files/images/home-bottom-left-categories.jpg\"></p>'),
 ('2020-09-25 11:12:33',	1,	'2020-10-01 15:11:10',	1,	'visiosoft.theme.sahibinden::home_top_latestAds',	'<p><img src=\"/files/images/home-top-latestads.jpg\"></p>'),
-('2020-09-25 11:12:33',	1,	'2020-10-01 15:11:10',	1,	'visiosoft.theme.sahibinden::home_bottom_latestAds',	'<p><img alt=\"Home bottom latestads\" src=\"/files/images/home-bottom-latestads.jpg\"></p>')
+('2020-09-25 11:12:33',	1,	'2020-10-01 15:11:10',	1,	'visiosoft.theme.sahibinden::home_bottom_latestAds',	'<p><img alt=\"Home bottom latestads\" src=\"/files/images/home-bottom-latestads.jpg\"></p>'),
+('2020-11-12 06:58:45', 1,  '2020-11-16 14:25:22',  1,  'streams::mail_driver', 'log')
 ON DUPLICATE KEY UPDATE `id` = VALUES(`id`), `sort_order` = VALUES(`sort_order`), `created_at` = VALUES(`created_at`), `created_by_id` = VALUES(`created_by_id`), `updated_at` = VALUES(`updated_at`), `updated_by_id` = VALUES(`updated_by_id`), `key` = VALUES(`key`), `value` = VALUES(`value`);
 
 COMMIT;
