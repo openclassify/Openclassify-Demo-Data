@@ -8,8 +8,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 /*!40101 SET @OLD_COLLATION_CONNECTION = @@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-TRUNCATE `default_store_store`;
-INSERT INTO `default_store_store` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `user_id`, `slug`, `land_phone`, `address`, `category`, `country_id`, `city`, `email`, `web_site`, `gold_supplier`, `facebook`, `instagram`, `twitter`, `file_id`, `store_banner_id`, `iban_number`, `status`) VALUES
+ INSERT INTO `default_store_store` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `user_id`, `slug`, `land_phone`, `address`, `category`, `country_id`, `city`, `email`, `web_site`, `gold_supplier`, `facebook`, `instagram`, `twitter`, `file_id`, `store_banner_id`, `iban_number`, `status`) VALUES
 (1, 1, '2020-10-26 06:50:53', 1, '2020-10-26 07:00:44', 1, 1, 'apple', '0500 000 00 00', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.', NULL, 221, NULL, NULL, NULL, 0, NULL, NULL, NULL, 470, NULL, NULL, 'approved'),
 (2, 2, '2020-10-26 06:56:19', 1, '2020-10-26 08:52:59', 1, 1, 'sony', '00000000000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.', NULL, 106, NULL, NULL, NULL, 0, NULL, NULL, NULL, 471, NULL, NULL, 'approved'),
 (3, 3, '2020-10-26 06:59:53', 1, '2020-10-26 07:01:16', 1, 1, 'pizza_hut', '0000000000', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, auctor a sapien. Nam eu neque vulputate diam rhoncus faucibus. Curabitur quis varius libero. Lorem.', NULL, 221, NULL, NULL, NULL, 0, NULL, NULL, NULL, 472, NULL, NULL, 'approved'),
@@ -21,7 +20,6 @@ INSERT INTO `default_store_store` (`id`, `sort_order`, `created_at`, `created_by
 (9, 9, '2020-10-26 08:46:47', 1, '2020-10-26 08:46:47', 1, 1, 'ikea', ' + 46701234567 ', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, \n auctor a sapien.Nam eu neque vulputate diam rhoncus faucibus.Curabitur quis varius libero.Lorem.Lorem ipsum dolor sit amet, \n consectetur adipiscing elit.Quisque sapien velit, aliquet eget commodo nec, \n auctor a sapien.Nam eu neque vulputate diam rhoncus faucibus.Curabitur quis varius libero.Lorem.', NULL, 200, NULL, NULL, NULL, 0, NULL, NULL, NULL, 482, NULL, NULL, 'approved'),
 (10, 10, '2020-10-26 09:10:43', 1, '2020-10-26 09:10:43', 1, 1, 'toys_r_us', ' + 12015550123 ', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sapien velit, aliquet eget commodo nec, \n auctor a sapien.Nam eu neque vulputate diam rhoncus faucibus.Curabitur quis varius libero.Lorem.Lorem ipsum dolor sit amet, \n consectetur adipiscing elit.Quisque sapien velit, aliquet eget commodo nec, \n auctor a sapien.Nam eu neque vulputate diam rhoncus faucibus.Curabitur quis varius libero.Lorem.', NULL, 221, NULL, NULL, NULL, 0, NULL, NULL, NULL, 487, NULL, NULL, 'approved');
 
-TRUNCATE `default_store_store_translations`;
 INSERT INTO `default_store_store_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`, `summary`, `detailed_description`) VALUES
 (1, 1, '2020-10-26 06:50:53', NULL, '2020-10-26 07:00:44', 1, 'ar', NULL, NULL, NULL),
 (2, 1, '2020-10-26 06:50:53', NULL, '2020-10-26 07:00:44', 1, 'nl', NULL, NULL, NULL),
@@ -133,7 +131,3 @@ INSERT INTO `default_store_store_translations` (`id`, `entry_id`, `created_at`, 
 (108, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'ru', NULL, NULL, NULL),
 (109, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'es', NULL, NULL, NULL),
 (110, 10, '2020-10-26 09:10:43', NULL, '2020-10-26 09:10:43', 1, 'tr', NULL, NULL, NULL);
-
-/*!40101 SET CHARACTER_SET_CLIENT = @OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS = @OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION = @OLD_COLLATION_CONNECTION */;
