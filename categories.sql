@@ -8,7 +8,6 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-TRUNCATE `default_cats_category`;
 INSERT INTO `default_cats_category` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `slug`, `parent_category_id`, `icon_id`, `seo_keyword`, `seo_description`) VALUES
 (1,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'antika_1',	7,	NULL,	NULL,	NULL),
 (2,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'bilgisayar_2',	7,	NULL,	NULL,	NULL),
@@ -127,7 +126,6 @@ INSERT INTO `default_cats_category` (`id`, `sort_order`, `created_at`, `created_
 (240126,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'dans_240126',	218822,	NULL,	NULL,	NULL),
 (240127,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'tiyatro-oyunculuk_240127',	218822,	NULL,	NULL,	NULL);
 
-TRUNCATE `default_cats_category_translations`;
 INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
 (1,	1,	'2020-10-27 09:43:13',	NULL,	NULL,	NULL,	'tr',	'Antika'),
 (2,	2,	'2020-10-27 09:43:13',	NULL,	NULL,	NULL,	'tr',	'Bilgisayar'),

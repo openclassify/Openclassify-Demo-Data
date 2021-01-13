@@ -3,7 +3,6 @@ SET time_zone = '+00:00';
 SET foreign_key_checks = 0;
 SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 
-TRUNCATE `default_customfields_cfvalue`;
 INSERT INTO `default_customfields_cfvalue` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `custom_field_id`, `custom_field_image_id`) VALUES
 (1,	1,	'2020-10-01 12:28:54',	1,	'2020-10-01 12:28:54',	1,	5,	NULL),
 (2,	2,	'2020-10-01 12:29:03',	1,	'2020-10-01 12:29:03',	1,	5,	NULL),
@@ -217,7 +216,6 @@ INSERT INTO `default_customfields_cfvalue` (`id`, `sort_order`, `created_at`, `c
 (211,	210,	'2020-10-01 13:04:11',	1,	'2020-10-01 13:04:11',	1,	29,	NULL),
 (212,	211,	'2020-10-01 13:04:19',	1,	'2020-10-01 13:04:19',	1,	29,	NULL);
 
-TRUNCATE `default_customfields_cfvalue_translations`;
 INSERT INTO `default_customfields_cfvalue_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `custom_field_value`) VALUES
 (3,	1,	'2020-10-01 12:28:54',	NULL,	'2020-10-01 12:28:54',	1,	'en',	'Gasoline'),
 (11,	1,	'2020-10-01 12:28:54',	NULL,	'2020-10-01 12:28:54',	1,	'tr',	'Benzin'),
@@ -474,7 +472,6 @@ INSERT INTO `default_customfields_cfvalue_translations` (`id`, `entry_id`, `crea
 (2313,	211,	'2020-10-01 13:04:11',	NULL,	'2020-10-01 13:04:11',	1,	'en',	' 24 MP'),
 (2324,	212,	'2020-10-01 13:04:19',	NULL,	'2020-10-01 13:04:19',	1,	'en',	' 32 MP');
 
-TRUNCATE `default_customfields_custom_fields`;
 INSERT INTO `default_customfields_custom_fields` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `slug`, `parent_category`, `type`, `seenList`) VALUES
 (4,	1,	'2020-10-01 11:40:51',	1,	'2020-10-01 11:40:51',	1,	'year',	NULL,	'range',	1),
 (5,	2,	'2020-10-01 11:41:37',	1,	'2020-10-01 11:41:37',	1,	'fuel',	NULL,	'select',	1),
@@ -496,7 +493,6 @@ INSERT INTO `default_customfields_custom_fields` (`id`, `sort_order`, `created_a
 (28,	24,	'2020-10-01 13:01:18',	1,	'2020-10-01 13:01:18',	1,	'rear_camera',	NULL,	'select',	1),
 (29,	25,	'2020-10-01 13:01:44',	1,	'2020-10-01 13:01:44',	1,	'front_camera',	NULL,	'select',	1);
 
-TRUNCATE `default_customfields_custom_fields_translations`;
 INSERT INTO `default_customfields_custom_fields_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`, `description`) VALUES
 (36,	4,	'2020-10-01 11:40:51',	NULL,	'2020-10-01 11:40:51',	1,	'en',	'Year',	''),
 (44,	4,	'2020-10-01 11:40:51',	NULL,	'2020-10-01 11:40:51',	1,	'tr',	'Yılı',	''),
@@ -536,7 +532,6 @@ INSERT INTO `default_customfields_custom_fields_translations` (`id`, `entry_id`,
 (311,	29,	'2020-10-01 13:01:44',	NULL,	'2020-10-01 13:01:44',	1,	'en',	'Front Camera',	''),
 (319,	29,	'2020-10-01 13:01:44',	NULL,	'2020-10-01 13:01:44',	1,	'tr',	'Ön Kamera',	'');
 
-TRUNCATE `default_customfields_custom_field_advs`;
 INSERT INTO `default_customfields_custom_field_advs` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `parent_adv_id`, `custom_field_category_id`, `custom_field_value`, `custom_field_type`) VALUES
 (1,	1,	'2020-10-01 12:57:30',	1,	'2020-10-01 12:57:30',	1,	32,	4,	'2020',	'range'),
 (2,	2,	'2020-10-01 12:57:30',	1,	'2020-10-01 12:57:30',	1,	32,	5,	'1',	'select'),
@@ -645,7 +640,6 @@ INSERT INTO `default_customfields_custom_field_advs` (`id`, `sort_order`, `creat
 (105,	105,	'2020-10-01 13:15:35',	1,	'2020-10-01 13:15:35',	1,	1,	10,	'43',	'select'),
 (106,	106,	'2020-10-01 13:15:35',	1,	'2020-10-01 13:15:35',	1,	1,	11,	'56',	'select');
 
-TRUNCATE `default_customfields_custom_field_advs_translations`;
 INSERT INTO `default_customfields_custom_field_advs_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`) VALUES
 (1,	1,	'2020-10-01 12:57:30',	NULL,	'2020-10-01 12:57:30',	1,	'en'),
 (2,	2,	'2020-10-01 12:57:30',	NULL,	'2020-10-01 12:57:30',	1,	'en'),
@@ -754,7 +748,6 @@ INSERT INTO `default_customfields_custom_field_advs_translations` (`id`, `entry_
 (105,	105,	'2020-10-01 13:15:35',	NULL,	'2020-10-01 13:15:35',	1,	'en'),
 (106,	106,	'2020-10-01 13:15:35',	NULL,	'2020-10-01 13:15:35',	1,	'en');
 
-TRUNCATE `default_customfields_parent`;
 INSERT INTO `default_customfields_parent` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `cf_id`, `cat_id`) VALUES
 (4,	1,	'2020-10-01 11:40:51',	1,	'2020-10-01 11:40:51',	1,	4,	3517),
 (5,	2,	'2020-10-01 11:41:37',	1,	'2020-10-01 11:41:37',	1,	5,	3517),
