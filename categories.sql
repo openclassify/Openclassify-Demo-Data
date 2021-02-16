@@ -8,7 +8,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-INSERT INTO `default_cats_category` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `slug`, `parent_category_id`, `icon_id`, `seo_keyword`, `seo_description`) VALUES
+INSERT INTO `default_cats_category` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `slug`, `parent_category_id`, `icon`, `seo_keyword`, `seo_description`) VALUES
 (1,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'antika_1',	7,	NULL,	NULL,	NULL),
 (2,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'bilgisayar_2',	7,	NULL,	NULL,	NULL),
 (3,	NULL,	'2019-03-27 16:20:51',	NULL,	NULL,	NULL,	NULL,	'elektrikli-ev-aletleri_3',	7,	NULL,	NULL,	NULL),
