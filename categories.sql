@@ -360,6 +360,16 @@ INSERT INTO `default_cats_category_translations` (`id`, `entry_id`, `created_at`
 (271997,	240126,	'2020-10-27 09:43:16',	NULL,	NULL,	NULL,	'en',	'Dance'),
 (271998,	240127,	'2020-10-27 09:43:16',	NULL,	NULL,	NULL,	'en',	'Tiyatro & Oyunculuk');
 
+INSERT INTO `default_files_files` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `deleted_at`, `name`, `disk_id`, `folder_id`, `extension`, `size`, `mime_type`, `entry_id`, `entry_type`, `keywords`, `height`, `width`, `alt_text`, `title`, `caption`, `description`, `str_id`) VALUES
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '7.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '7.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '9.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '9.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '39.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '39.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '3517.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '3517.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '3518.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '3518.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '3520.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '3520.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '218822.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '218822.png'),
+(99500167, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '218835.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '218835.png');
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
