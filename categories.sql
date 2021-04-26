@@ -368,6 +368,7 @@ INSERT INTO `default_files_files` (`id`, `sort_order`, `created_at`, `created_by
 (99500171, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '3518.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '3518.png'),
 (99500172, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '3520.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '3520.png'),
 (99500173, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '218822.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '218822.png'),
+(99500175, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '4595.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '4595.png'),
 (99500174, 153, '2021-04-16 12:28:51', 1, '2021-04-16 12:28:51', 1, NULL, '218835.png', 1, 6, 'png', 466846, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesCategoryIconEntryModel', NULL, '550', '900', NULL, NULL, NULL, NULL, '218835.png');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
