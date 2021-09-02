@@ -532,7 +532,7 @@ INSERT INTO `default_customfields_custom_fields_translations` (`id`, `entry_id`,
 (311,	29,	'2020-10-01 13:01:44',	NULL,	'2020-10-01 13:01:44',	1,	'en',	'Front Camera',	''),
 (319,	29,	'2020-10-01 13:01:44',	NULL,	'2020-10-01 13:01:44',	1,	'tr',	'Ön Kamera',	'');
 
-INSERT INTO `default_customfields_custom_field_advs` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `parent_adv_id`, `custom_field_category_id`, `custom_field_value`, `custom_field_type`) VALUES
+INSERT INTO `default_customfields_custom_field_classifieds` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `parent_classified_id`, `custom_field_category_id`, `custom_field_value`, `custom_field_type`) VALUES
 (1,	1,	'2020-10-01 12:57:30',	1,	'2020-10-01 12:57:30',	1,	32,	4,	'2020',	'range'),
 (2,	2,	'2020-10-01 12:57:30',	1,	'2020-10-01 12:57:30',	1,	32,	5,	'1',	'select'),
 (3,	3,	'2020-10-01 12:57:30',	1,	'2020-10-01 12:57:30',	1,	32,	6,	'6',	'select'),
@@ -640,7 +640,7 @@ INSERT INTO `default_customfields_custom_field_advs` (`id`, `sort_order`, `creat
 (105,	105,	'2020-10-01 13:15:35',	1,	'2020-10-01 13:15:35',	1,	1,	10,	'43',	'select'),
 (106,	106,	'2020-10-01 13:15:35',	1,	'2020-10-01 13:15:35',	1,	1,	11,	'56',	'select');
 
-INSERT INTO `default_customfields_custom_field_advs_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`) VALUES
+INSERT INTO `default_customfields_custom_field_classifieds_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`) VALUES
 (1,	1,	'2020-10-01 12:57:30',	NULL,	'2020-10-01 12:57:30',	1,	'en'),
 (2,	2,	'2020-10-01 12:57:30',	NULL,	'2020-10-01 12:57:30',	1,	'en'),
 (3,	3,	'2020-10-01 12:57:30',	NULL,	'2020-10-01 12:57:30',	1,	'en'),
