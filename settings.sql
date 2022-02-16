@@ -8,7 +8,7 @@ SET sql_mode = 'NO_AUTO_VALUE_ON_ZERO';
 /*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
 /*!40101 SET NAMES utf8mb4 */;
 
-INSERT INTO `default_settings_settings` (`created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `key`, `value`) VALUES
+INSERT INTO `{application_reference}_settings_settings` (`created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `key`, `value`) VALUES
 ('2019-07-15 06:48:46', 1, '2019-07-15 06:53:05', 1, 'streams::date_format', 'j F, Y'),
 ('2019-07-15 06:48:46', 1, '2019-07-15 06:53:05', 1, 'streams::time_format', 'H:i'),
 ('2019-07-15 06:48:46', 1, '2019-07-15 06:53:05', 1, 'streams::standard_theme', 'visiosoft.theme.base'),

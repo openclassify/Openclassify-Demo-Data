@@ -23,10 +23,10 @@ SET time_zone = "+00:00";
 --
 
 --
--- Dumping data for table `default_location_cities`
+-- Dumping data for table `{application_reference}_location_cities`
 --
 
-INSERT INTO `default_location_cities` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `slug`, `parent_country_id`, `order`) VALUES
+INSERT INTO `{application_reference}_location_cities` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `slug`, `parent_country_id`, `order`) VALUES
 (1, 6, '2019-01-31 10:09:32', NULL, NULL, NULL, 'adana', 212, NULL),
 (2, 7, '2019-01-31 10:09:32', NULL, NULL, NULL, 'adiyaman', 212, NULL),
 (3, 8, '2019-01-31 10:09:32', NULL, NULL, NULL, 'afyonkarahisar', 212, NULL),
@@ -111,10 +111,10 @@ INSERT INTO `default_location_cities` (`id`, `sort_order`, `created_at`, `create
 (99, 2, '2019-01-31 10:09:32', NULL, NULL, NULL, 'istanbul-asya', 212, NULL);
 
 --
--- Dumping data for table `default_location_cities_translations`
+-- Dumping data for table `{application_reference}_location_cities_translations`
 --
 
-INSERT INTO `default_location_cities_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
+INSERT INTO `{application_reference}_location_cities_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
 (1, 1, '2019-01-31 10:11:53', NULL, NULL, NULL, 'en', 'Adana'),
 (2, 2, '2019-01-31 10:11:53', NULL, NULL, NULL, 'en', 'Adıyaman'),
 (3, 3, '2019-01-31 10:11:53', NULL, NULL, NULL, 'en', 'Afyonkarahisar'),
