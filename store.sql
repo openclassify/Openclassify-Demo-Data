@@ -29,11 +29,11 @@ INSERT IGNORE INTO `{application_reference}_files_files` (`id`, `sort_order`, `c
 (99999571, 890, '2021-03-08 08:27:43', 4, '2021-03-08 08:27:43', 4, NULL, '1615192062391_son_magazalar3.png', 1, 1, 'png', 74708, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '400', '700', NULL, NULL, NULL, NULL, 'apReHNDy6FXlUf1dIEtHx01a'),
 (99999570, 889, '2021-03-08 08:26:48', 4, '2021-03-08 08:26:48', 4, NULL, 'car_dealer.jpg', 1, 1, 'jpg', 100240, 'image/jpeg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '400', '700', NULL, NULL, NULL, NULL, 'SMCR3Et9X2XYtYIDt0MwnWTM'),
 (99999569, 888, '2021-03-08 08:24:36', 4, '2021-03-08 08:24:36', 4, NULL, '1615191874905_son_magazalar1.png', 1, 1, 'png', 77558, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '400', '700', NULL, NULL, NULL, NULL, 'Gl7BVV9QGtDDyeYRYbKMM3nm'),
-(99999575, 224, '2023-05-23 13:20:53', 1, '2023-05-23 13:20:53', 1, NULL, 'laptop-medical-solid.svg', 1, 9, 'svg', 654, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'qtjGV6LxizAKmOzVGfkO9wyJ'),
-(99999576, 225, '2023-05-23 13:29:37', 1, '2023-05-23 13:29:37', 1, NULL, 'shirt-solid.svg', 1, 9, 'svg', 680, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'W7A6AlpyMeidUNRTL20WLBjd'),
-(99999577, 226, '2023-05-24 12:23:23', 3, '2023-05-24 12:23:23', 3, NULL, 'car-solid.svg', 1, 9, 'svg', 705, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5Tx089cMcf6Sm7rg7c0KPQou'),
-(99999578, 227, '2023-05-24 12:24:22', 3, '2023-05-24 12:24:22', 3, NULL, 'paw-solid.svg', 1, 9, 'svg', 922, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '6zbyJHcCKOyBzn5YHeI2ioOy'),
-(99999579, 228, '2023-05-24 12:26:39', 3, '2023-05-24 12:26:39', 3, NULL, 'house-solid.svg', 1, 9, 'svg', 802, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5YvQMGhSMNqKlzSEK72Y7wHu'),
+(99999575, 224, '2023-05-23 13:20:53', 1, '2023-05-23 13:20:53', 1, NULL, 'laptop-medical-solid.svg', 1, 4, 'svg', 654, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'qtjGV6LxizAKmOzVGfkO9wyJ'),
+(99999576, 225, '2023-05-23 13:29:37', 1, '2023-05-23 13:29:37', 1, NULL, 'shirt-solid.svg', 1, 4, 'svg', 680, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'W7A6AlpyMeidUNRTL20WLBjd'),
+(99999577, 226, '2023-05-24 12:23:23', 3, '2023-05-24 12:23:23', 3, NULL, 'car-solid.svg', 1, 4, 'svg', 705, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5Tx089cMcf6Sm7rg7c0KPQou'),
+(99999578, 227, '2023-05-24 12:24:22', 3, '2023-05-24 12:24:22', 3, NULL, 'paw-solid.svg', 1, 4, 'svg', 922, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '6zbyJHcCKOyBzn5YHeI2ioOy'),
+(99999579, 228, '2023-05-24 12:26:39', 3, '2023-05-24 12:26:39', 3, NULL, 'house-solid.svg', 1, 4, 'svg', 701, 'image/svg', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesStoreIconEntryModel', NULL, NULL, NULL, NULL, NULL, NULL, NULL, '5YvQMGhSMNqKlzSEK72Y7wHu'),
 (99999580, 901, '2023-05-25 08:49:43', 3, '2023-05-25 08:49:43', 3, NULL, 'clothes2.png', 1, 1, 'png', 262373, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '334', '1000', NULL, NULL, NULL, NULL, 'kqB3JU3CFGisdymZBSn574gS'),
 (99999581, 902, '2023-05-25 08:49:43', 3, '2023-05-25 08:49:43', 3, NULL, 'electronics.png', 1, 1, 'png', 156843, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '334', '1000', NULL, NULL, NULL, NULL, 'ukzqkQk6JcABumrSRjm4kspe'),
 (99999582, 903, '2023-05-25 08:49:46', 3, '2023-05-25 08:49:46', 3, NULL, 'realestate2.png', 1, 1, 'png', 121117, 'image/png', NULL, 'Anomaly\\Streams\\Platform\\Model\\Files\\FilesImagesEntryModel', NULL, '334', '1000', NULL, NULL, NULL, NULL, '2kEhqCKjxPJHPGO5wPAyU5IL'),
@@ -47,7 +47,7 @@ INSERT IGNORE INTO `{application_reference}_store_category` (`id`, `sort_order`,
 (2, 2, '2023-05-24 12:22:44', 3, '2023-05-24 12:22:56', 3, 'clothes', 99999576, 1, 'store'),
 (3, 3, '2023-05-24 12:23:27', 3, '2023-05-24 12:23:27', 3, 'vehicle', 99999577, 1, 'store'),
 (4, 4, '2023-05-24 12:24:26', 3, '2023-05-24 12:24:26', 3, 'pet', 99999578, 1, 'store'),
-(5, 5, '2023-05-24 12:26:42', 3, '2023-05-24 12:26:42', 3, 'real_estate', 99999579, 1, 'store');;
+(5, 5, '2023-05-24 12:26:42', 3, '2023-05-24 12:26:42', 3, 'real_estate', 99999579, 1, 'store');
 
 INSERT IGNORE INTO `{application_reference}_store_category_translations` (`id`, `entry_id`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `locale`, `name`) VALUES
 (1, 1, '2023-05-24 14:58:31', NULL, '2023-05-24 14:58:31', 3, 'ar', NULL),
@@ -108,4 +108,5 @@ INSERT IGNORE INTO `{application_reference}_store_category_translations` (`id`, 
 
 INSERT IGNORE INTO `{application_reference}_store_thumb_slider` (`id`, `sort_order`, `created_at`, `created_by_id`, `updated_at`, `updated_by_id`, `slider_id`, `url`) VALUES
 (3, 1, '2021-03-08 08:59:03', 4, '2021-03-08 08:59:03', 4, 9999574, NULL);
+
 COMMIT;
